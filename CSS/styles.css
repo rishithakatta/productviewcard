@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+}
+.card
+{
+    margin:30px auto;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 100px;
+   
+    
+}
+.card-container{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 1.5rem;
+    
+    
+}
+.img img{
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    max-width: 100%;
+    display: inherit;
+    height: 550px;
+    
+    
+
+}
+.perfume{
+    padding-left: 25px;
+  
+   
+}
+.title{
+    color:hsl(228, 12%, 48%);
+    font-weight: 400;
+}
+.intro1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 1em;
+    color: hsl(212, 21%, 14%);
+}
+.intro2{
+      color: hsl(228, 12%, 48%);
+      line-height: 1.6em;
+      
+}
+.cost{
+    display: flex;
+    align-items: center;
+}
+.cost h2{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size:40px ;
+    padding-right:2rem ;
+}
+.cost p{
+    color:hsl(228, 12%, 48%);
+    padding-right: 1rem;
+   
+}
+.btn{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    margin-bottom:2rem;
+    font-family:'Montserrat', sans-serif; 
+}
+.btn img{
+    padding-right: 1rem;
+}
+.btn:hover{
+    background-color: hsl(158,36%,25%);
+}
+
+
+
